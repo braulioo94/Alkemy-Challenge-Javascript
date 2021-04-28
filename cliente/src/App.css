@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  color: white;
+  background-color:black;
+}
+.root{
+  width: 100%;
+}
+
+.container-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  gap: 1rem;
+  flex: 1;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.btn{
+  height: 2rem;
+  max-width: 15rem;
+}
+.containerHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerTable{
+  width: 50%;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+ /* ----Option.jsx---- */
+.containerOption{
+  margin-top: 4rem;
+}
+
+
+/* ----Error---- */
+.message {
+  font-weight: 900;
+  font-family: var(--textFont);
+  font-size: 1rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  border: none;
+}
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 0;
+}
+.error{
+  max-width: 600px;
+  margin: 2rem auto 0 auto;
+  background-color: rgb(170, 0, 0);
+  color: var(--blanco);
+  border-radius: .5rem;
+}
+/* ----Error---- */
+
+/* ----NewCategory---- */
+.containerFormNewCategory{
+  display: flex;
+  flex-direction: column;
+}
+.containerFormNewCategory input{
+  margin-top: 1rem;
+}
+.containerButton{
+  display: flex;
+  margin-top: 1rem;
+}
+.complet{
+  border-radius: 1rem;
+}
+
+/* ----NewCategory---- */
+
+/* ----AdvancedSerach---- */
+.containerSearch{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+}
+.containerSearch table{
+  margin-left: 5rem;
+  font-weight: bold;
+}
+select{
+  max-height: 2rem;
+  box-shadow: 10px 5px 5px black;
+}
+
+tr th{
+  color: white;
+}
+
+
+
+
+/* ----SearchCategory---- */
+.containerSelect{
+  display: flex;
+  
+}
+.selectButton{
+  display: flex;
+  flex-direction: column;
+}
+
+.containerSelect button{
+  margin-top: 1rem;
+}
+
+.containerSelect select {
+  max-height: 2rem;
+  box-shadow: 10px 5px 5px black;
+}
+.containerButton{
+  display: flex;
+}
+
+.containerButton button {
+  margin-right: .5rem;
+}
+
+h4{
+  width: 50%;
+}
+.containerTabla{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.containerTabla   tr   :hover{
+  cursor: pointer;
+  color: white;
+}
+.containerTabla h5{
+  margin-left: 4.9rem;
+  margin-bottom: 2rem;
+}
+
+/* ----SearchCategory---- */
+
+
+.modal{
+  color: black;
+}
+
+
+/* ----Media Queries---- */
+@media (max-width: 1030px){
+  .container-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5.5rem;
+    margin-left: 4rem;
+    gap: 1rem;
+    
+  }
+  
+  
+  
+  
+
+}
+
+@media (max-width: 1030px){
+  main{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .container-btn{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:start;
+    gap: 1rem;
+    margin-top: -80px;
+    padding-top: 5.5rem;
+    margin-left: 4rem;
+    
+    
+  }
+
+  
+
+  .containerNewOperation{
+    margin-bottom: 4rem;
+  }
+
+  .containerNewCategory{
+    margin-bottom: 4rem;
+  }
+
+  .containerSelect{
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+  }
+
+  .containerSearch{
+    max-width: 38%;
+    margin-left: 40%;
+  }
+  .containerSearch select{
+    margin-left: 6rem;
+  }
+
+  .containerTabla{
+    display: flex;
+    justify-content: start;
+    align-items: initial;
+    margin-left: -550px;
+    width: 250%;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerButton{
+    display: flex;
+  }
+  .containerButton Button{
+    height: 3rem;
+  }
+  
+  
+
+}
+
+
+
+
+
+  /* ----Media Queries---- */
