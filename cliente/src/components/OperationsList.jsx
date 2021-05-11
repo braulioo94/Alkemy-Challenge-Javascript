@@ -16,6 +16,7 @@ const OperationsList = () => {
             
             
         }, [])
+        
         useEffect(() => {
             seeOperations()
         }, [operations])

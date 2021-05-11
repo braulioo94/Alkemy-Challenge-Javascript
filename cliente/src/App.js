@@ -27,8 +27,6 @@ function App() {
         <section>
           <AdvancedSearch />
         </section>
-        
-
       </div>
     </OperacionState>
   );

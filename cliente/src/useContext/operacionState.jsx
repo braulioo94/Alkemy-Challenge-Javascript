@@ -69,10 +69,12 @@ const OperacionState =   props =>{
     })
 
     //Permite hacer click en la operación que desea eliminar
-    const [allowDeletion, setAllowDeletion] = useState(false)
+    const [allowDeletion, setAllowDeletion] = useState(false);
 
     //Permite hacer click en la operación que desea cambiar
-    const [allowPut, setAllowPut] = useState(false)
+    const [allowPut, setAllowPut] = useState(false);
+
+    const [search, setSearch] = useState('')
 
     
 
@@ -90,6 +92,7 @@ const OperacionState =   props =>{
             categoryInformation,
             allowDeletion,
             allowPut,
+            search,
             setsOperations,
             setCurrentBalance,
             setNewOperation,
@@ -101,7 +104,8 @@ const OperacionState =   props =>{
             setCategories,
             setNewCategory,
             setAllowDeletion,
-            setAllowPut
+            setAllowPut,
+            setSearch
 
         }}
         
